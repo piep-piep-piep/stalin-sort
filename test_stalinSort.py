@@ -24,9 +24,5 @@ class TestStalinSort(unittest.TestCase):
     def test_null(self):
         self.assertRaises(TypeError, sort, None)
 
-    # test to check if unittests work and fail correctly
-    # def test_unittesting(self):
-    #     self.assertRaises(TypeError, sum, [1,6])
-
 if __name__ == "__main__":
     unittest.main()
